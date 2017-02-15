@@ -21,4 +21,4 @@ An example using random data for `num = 55` time series of length `len = 6000` u
 	data = np.random.random((num, len))
 	trans = Normalize.Quantile(data)
 
-Transformed time series in `trans` are aprox. normal distributed.
+Transformed time series in `trans` are approximately normal distributed.
